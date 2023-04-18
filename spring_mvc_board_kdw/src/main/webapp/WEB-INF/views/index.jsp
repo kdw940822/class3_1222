@@ -15,6 +15,7 @@
 		<jsp:include page="inc/top.jsp"></jsp:include>
 	</header>
 	<article id="main">
+		<h3>test가 추가함</h3>
 		<h1>MVC 게시판 프로젝트</h1>
 		<%-- 하이퍼링크 생성 --%>
 		<%-- 1) 글쓰기 -> BoardWriteForm.bo --%>
