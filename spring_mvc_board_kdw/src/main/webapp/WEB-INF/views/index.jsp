@@ -25,10 +25,11 @@
 		<hr>
 		<h3><a href="FreeBoardList.bo2">자유게시판</a></h3>
 		<hr>
-		<h3>수정 확인용1</h3>
-		<hr>
-		<h3>수정 확인용2</h3>
+		<h3>수정　확인용1</h3>
 		
+		<h3>수정　확인용2</h3>
+		<hr>
+		<h3>수정　확인용3-test</h3>
 		
 	</article>
 </body>
