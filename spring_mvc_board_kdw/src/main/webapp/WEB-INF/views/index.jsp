@@ -24,6 +24,8 @@
 		<h3><a href="Main2.bo">샘플 메인페이지</a></h3>
 		<hr>
 		<h3><a href="FreeBoardList.bo2">자유게시판</a></h3>
+		<hr>
+		<h3>수정　확인용１</h3>
 		
 	</article>
 </body>
