@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.itwillbs.spring_mvc_board_kdw.mapper.BoardMapper">
+  
+  	<insert id="insertBoard">
+  		<selectKey keyProperty="board_num" resultType="int" order="BEFORE">
+			SELECT IFNULL(MAX(board_num), 0) FROM board
+		</selectKey>
+  		INSERT INTO board
+  		VALUES(#{board_num} + 1
+  			   , #{board_name}
+  			   , #{board_subject}
+  			   , #{board_content}
+  			   , #{board_file}
+  			   , #{board_file_path}
+  			   , #{board_num} + 1
+  			   , #{board_re_lev}
+  			   , #{board_re_seq}
+  			   , #{board_readcount}
+  			   , now()
+	   		   )
+  	</insert>
+  	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
